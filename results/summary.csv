@@ -1,0 +1,16 @@
+map_key,map_name,algorithm,runs,agents_per_run,evacuated_total,survival_mean_pct,survival_sd_pct,clearance_valid_runs,zero_evacuation_runs,clearance_mean_turns,clearance_sd_turns,clearance_min_turns,clearance_max_turns
+mapa_1,Alta densidad y cuello de botella,BFS,200,14,2695,96.25000005999999,6.715022578817386,200,0,33.215,4.141804889018007,20,39
+mapa_1,Alta densidad y cuello de botella,UCS,200,14,2701,96.46428577500001,6.523684124731669,200,0,33.25,4.140436701653826,20,39
+mapa_1,Alta densidad y cuello de botella,A*,200,14,2721,97.178571475,5.679068552625778,200,0,33.395,4.027415471103574,20,39
+mapa_1,Alta densidad y cuello de botella,IDA*,200,14,2701,96.46428577500001,6.523684124731669,200,0,33.25,4.140436701653826,20,39
+mapa_1,Alta densidad y cuello de botella,GA,200,14,2698,96.35714292,6.562573938524048,200,0,33.355,4.1948730372914715,20,39
+mapa_2,Densidad media y laberinto corporativo,BFS,200,16,3166,98.9375,2.7390428123047275,200,0,28.645,2.3848295663006,23,41
+mapa_2,Densidad media y laberinto corporativo,UCS,200,16,3168,99.0,2.690598745268458,200,0,29.67,2.826845463831001,23,41
+mapa_2,Densidad media y laberinto corporativo,A*,200,16,3171,99.09375,2.458632303031004,200,0,29.665,2.6604822549954603,23,39
+mapa_2,Densidad media y laberinto corporativo,IDA*,200,16,3168,99.0,2.690598745268458,200,0,29.675,2.831867292407793,23,41
+mapa_2,Densidad media y laberinto corporativo,GA,200,16,3167,98.96875,2.641823631128685,200,0,34.675,3.7630009140839955,25,47
+mapa_3,Baja densidad y dispersión abierta,BFS,200,18,3600,100.0,0.0,200,0,26.03,1.6131058715297701,20,31
+mapa_3,Baja densidad y dispersión abierta,UCS,200,18,3600,100.0,0.0,200,0,28.045,2.0281870509319004,20,33
+mapa_3,Baja densidad y dispersión abierta,A*,200,18,3600,100.0,0.0,200,0,27.715,1.9474954925409549,20,33
+mapa_3,Baja densidad y dispersión abierta,IDA*,200,18,3600,100.0,0.0,200,0,28.03,2.081046315881562,20,33
+mapa_3,Baja densidad y dispersión abierta,GA,200,18,3600,100.0,0.0,200,0,31.37,2.757010251638211,21,38

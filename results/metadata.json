@@ -1,0 +1,28 @@
+{
+  "project": "Escape de la Torre",
+  "created_at_utc": "2026-09-27T19:45:48.015036+00:00",
+  "seed": 20260927,
+  "iterations_per_configuration": 200,
+  "configurations": 15,
+  "simulation_runs": 3000,
+  "maps": [
+    "mapa_1",
+    "mapa_2",
+    "mapa_3"
+  ],
+  "algorithms": [
+    "BFS",
+    "UCS",
+    "A*",
+    "IDA*",
+    "GA"
+  ],
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 2060 SUPER",
+  "python": "3.14.7",
+  "platform": "Linux-7.2.5-3-omarchy-x86_64-with-glibc2.44",
+  "elapsed_seconds": 1678.751,
+  "fire_period_turns": 3,
+  "fire_spread_probability_per_neighbor": 0.3,
+  "smoke_model": "casillas transitables adyacentes a cada celda en llamas"
+}
